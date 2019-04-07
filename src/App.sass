@@ -1,0 +1,104 @@
+@import "~bulma/sass/utilities/initial-variables.sass"
+
+.header
+  margin-bottom: 0 !important
+
+  .left
+    h1
+      font-size: 3rem
+      margin-bottom: 0
+    
+    .inline
+      display: flex
+
+      span
+        margin-right: .5rem
+
+  .right
+    span
+      margin-left: .5rem
+
+    .inline
+      display: flex
+    
+.main
+  h5
+    margin-bottom: .5rem !important
+  
+  .skills
+    width: 14rem
+    border-right: 1px solid $grey-lighter
+    margin-right: 1rem
+
+    li
+      &:not(:last-child)
+        margin-bottom: .5rem
+
+      &.tabbed
+        margin-left: .5rem
+
+        &:before
+          content: "- "
+
+  .experience
+    .job
+      &:not(:last-child)
+        margin-bottom: 1.5rem
+
+      li
+        &.tabbed
+          margin-left: 1rem
+
+          &:before
+            content: "- "
+    
+    .level
+      margin-bottom: .35rem !important
+
+    .job-title
+      margin-bottom: 0 !important
+    
+    .left
+      p
+        margin-bottom: 0 !important
+
+    .right
+      p
+        margin-bottom: 0 !important
+    
+    .responsibilities
+      li
+        &:before
+          content: "- "
+  
+  .education
+    .columns
+      &:not(:last-child)
+        margin-bottom: 0
+
+    .degree
+      margin-bottom: 0 !important
+    
+    .left
+      p
+        margin-bottom: 0 !important
+
+    .right
+      p
+        margin-bottom: 0 !important
+ 
+
+.is-link
+  color: $blue
+  cursor: pointer
+
+  &:hover
+    color: $grey-darker
+
+.section
+  padding: 1rem 0
+
+.main-section
+  @extend .section
+  padding: 2rem 1.5rem
+
