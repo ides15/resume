@@ -53,25 +53,30 @@ class App extends Component {
             <div className="columns section">
               <Skills
                 skills={[
-                  "Golang",
-                  "Microservices",
-                  "Docker",
                   "JavaScript",
                   "TypeScript",
                   "React",
                   ["Redux", "MobX"],
                   "Node.js",
                   ["Express", "Hapi"],
-                  "Messaging",
-                  ["NATS", "RabbitMQ"],
-                  "Protocol Buffers / GRPC",
-                  "Cloud Design Patterns",
-                  ["CQRS", "Event Sourcing", "Pub/Sub"],
-                  "Linux",
+                  "Docker",
+                  "Golang",
+                  "Microservices",
+                  "CSS / SASS",
                   "Python",
                   "Flask",
                   "Databases",
-                  ["MongoDB", "SQLite", "MySQL"]
+                  ["MongoDB", "SQLite", "DynamoDB", "MySQL"],
+                  "AWS",
+                  "OAuth2 / OIDC",
+                  "Bamboo CI/CD",
+                  // "Messaging",
+                  // ["NATS", "RabbitMQ"],
+                  // "Protocol Buffers / GRPC",
+                  "Cloud Design Patterns",
+                  // ["CQRS", "Event Sourcing", "Pub/Sub"],
+                  ["CQRS", "Event Sourcing"],
+                  "Linux"
                 ]}
               />
               <div className="experience column is-gapless">
@@ -84,12 +89,12 @@ class App extends Component {
                   time="June 2018 - Current"
                   location="Portsmouth, NH"
                   responsibilities={[
-                    "Architected and developed micro-service platform to make existing automation system more flexible, available, and performant",
+                    "Created UI and backend architecture of a service catalog to make our automation services more available to our customers",
                     [
                       "UI written in TypeScript React / MobX, styled with Bulma",
-                      "Backend plumbing / API gateway written in Go, used NATS streaming server for messaging"
+                      "Started writing backend using Golang with NATS streaming server and gRPC for messaging"
                     ],
-                    "Integrated AIOps software into existing products to proactively respond to issues without need for human interaction",
+                    "Wrote a Node.js REST API to track the telemetry of my team's services, deployed to AWS using DynamoDB",
                     "Built a system to enable ITSM managers to reduce response times to problem remediation and root cause detection",
                     [
                       "UI written in React / Redux, styled with Blueprint.js",
@@ -103,7 +108,8 @@ class App extends Component {
                   time="June 2016 - Current"
                   location="Portsmouth, NH"
                   responsibilities={[
-                    "Co-developed 'Kneeded', a large-scale, distributed list creation tool built with micro-services",
+                    // "Co-developed 'Kneeded', a large-scale, distributed list creation tool built with micro-services",
+                    "In the process of obtaining an AWS Solutions Architect Associate certification",
                     "Created 'Dinero', a money management tool written in Golang and React",
                     [
                       "Learned TDD with Go, SQLite persistence",
