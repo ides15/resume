@@ -7,7 +7,7 @@
     h1
       font-size: 3rem
       margin-bottom: 0
-    
+
     .inline
       display: flex
 
@@ -20,11 +20,11 @@
 
     .inline
       display: flex
-    
+
 .main
   h5
     margin-bottom: .5rem !important
-  
+
   .skills
     width: 14rem
     border-right: 1px solid $grey-lighter
@@ -32,10 +32,12 @@
 
     li
       &:not(:last-child)
-        margin-bottom: .5rem
+        margin-bottom: .4rem
+        font-size: 1em
 
       &.tabbed
         margin-left: .5rem
+        font-size: .8em
 
         &:before
           content: "- "
@@ -51,13 +53,13 @@
 
           &:before
             content: "- "
-    
+
     .level
       margin-bottom: .35rem !important
 
     .job-title
       margin-bottom: 0 !important
-    
+
     .left
       p
         margin-bottom: 0 !important
@@ -65,12 +67,12 @@
     .right
       p
         margin-bottom: 0 !important
-    
+
     .responsibilities
       li
         &:before
           content: "- "
-  
+
   .education
     .columns
       &:not(:last-child)
@@ -78,7 +80,7 @@
 
     .degree
       margin-bottom: 0 !important
-    
+ 
     .left
       p
         margin-bottom: 0 !important
@@ -87,7 +89,6 @@
       p
         margin-bottom: 0 !important
  
-
 .is-link
   color: $blue
   cursor: pointer
@@ -101,4 +102,3 @@
 .main-section
   @extend .section
   padding: 2rem 1.5rem
-

@@ -45,37 +45,44 @@ class App extends Component {
             <div className="summary section">
               <h5 className="subtitle is-5 has-text-weight-bold">Summary</h5>
               <p>
-                Best-practice oriented software developer interested in building
-                large, complex, and cloud-native products and tools. Skilled in
-                design, architecture, and agile practices.
+                Software engineer interested in building exciting and
+                challenging products and tools. Skilled in design, architecture,
+                and agile practices.
               </p>
             </div>
             <div className="columns section">
               <Skills
                 skills={[
-                  "JavaScript",
-                  "TypeScript",
-                  "React",
-                  ["Redux", "MobX"],
+                  "JavaScript / TypeScript",
+                  ["React / React Native", "Redux / MobX", "Jest"],
                   "Node.js",
-                  ["Express", "Hapi"],
-                  "Docker",
+                  ["Express / Hapi / Nest.js"],
                   "Golang",
-                  "Microservices",
-                  "CSS / SASS",
+                  ["Gorilla Mux", "gorm"],
                   "Python",
-                  "Flask",
+                  [
+                    "Flask",
+                    "Pandas / Numpy / Jupyter",
+                    "Time-series Forecasting"
+                  ],
+                  "CSS / SASS / SCSS",
+                  "Messaging / Streaming",
+                  ["NATS", "Kafka"],
+                  "Protocol Buffers / GRPC",
                   "Databases",
-                  ["MongoDB", "SQLite", "DynamoDB", "MySQL"],
-                  "AWS",
+                  [
+                    "SQLite",
+                    "DynamoDB / MongoDB",
+                    "MySQL / Aurora",
+                    "Redis",
+                    "Neo4j"
+                  ],
+                  "CI/CD (Bamboo)",
                   "OAuth2 / OIDC",
-                  "Bamboo CI/CD",
-                  // "Messaging",
-                  // ["NATS", "RabbitMQ"],
-                  // "Protocol Buffers / GRPC",
-                  "Cloud Design Patterns",
-                  // ["CQRS", "Event Sourcing", "Pub/Sub"],
-                  ["CQRS", "Event Sourcing"],
+                  "Docker",
+                  "AWS",
+                  "Git",
+                  "Vim",
                   "Linux"
                 ]}
               />
