@@ -113,6 +113,17 @@ class App extends Component {
                   ]}
                 />
                 <Job
+                  title="TechStart Intern"
+                  employer="Liberty Mutual Insurance"
+                  time="May 2017 - August 2017"
+                  location="Portsmouth, NH"
+                  responsibilities={[
+                    "Create a Billing Modeler for phone representatives to see how a policy change would affect the recurring payments",
+                    ["Learned full-stack web development in JavaScript"],
+                    "Participated in Liberty Mutual's 'Agile Transformation', learned agile ceremonies and tendencies"
+                  ]}
+                />
+                <Job
                   title="Personal"
                   employer="Self-Employed"
                   time="Current"
@@ -123,17 +134,6 @@ class App extends Component {
                     ["Golang, SQLite, Docker"],
                     "Built a Docker container management UI similar to Kitematic",
                     ["React, Docker Engine API"]
-                  ]}
-                />
-                <Job
-                  title="TechStart Intern"
-                  employer="Liberty Mutual Insurance"
-                  time="May 2017 - August 2017"
-                  location="Portsmouth, NH"
-                  responsibilities={[
-                    "Create a Billing Modeler for phone representatives to see how a policy change would affect the recurring payments",
-                    ["Learned full-stack web development in JavaScript"],
-                    "Participated in Liberty Mutual's 'Agile Transformation', learned agile ceremonies and tendencies"
                   ]}
                 />
                 <Job
