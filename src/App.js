@@ -54,15 +54,20 @@ class App extends Component {
               <Skills
                 skills={[
                   "JavaScript / TypeScript",
-                  ["React / React Native", "Redux / MobX"],
+                  ["React / React Native", "Redux / MobX", "Jest"],
                   "Node.js",
                   ["Express / Hapi / Nest.js"],
                   "Golang",
                   ["Gorilla Mux", "gorm"],
                   "Python",
-                  ["Flask", "Pandas / Numpy / Jupyter"],
+                  [
+                    "Flask",
+                    "Pandas / Numpy / Jupyter",
+                    "Time-Series Forecasting"
+                  ],
                   "CSS / SASS / SCSS",
-                  "Docker / Docker Compose",
+                  "Docker",
+                  "Docker Compose",
                   "CI/CD (Bamboo)",
                   "AWS",
                   "Databases",
@@ -75,8 +80,10 @@ class App extends Component {
                   ],
                   "OAuth2 / OIDC",
                   "Protocol Buffers / GRPC",
+                  "Hashicorp Vault",
                   "Git",
-                  "Vim"
+                  "Vim",
+                  "Linux"
                 ]}
               />
               <div className="experience column is-gapless">
@@ -96,11 +103,13 @@ class App extends Component {
                     ],
                     "Built a Telemetry API and dashboard to track external application and service usage",
                     ["Node.js API, DynamoDB"],
-                    "Built a frontend for tracking mainframe deployments, including importing and exporting Excel sheets",
+                    "Built a UI for tracking mainframe deployments, including importing and exporting Excel sheets",
                     ["React, MobX, Node.js (TypeScript)"],
                     "Lead the creation of a service catalog to better market our team's services to the company",
                     "Created a system for adding new detail to ITSM problem tickets",
-                    ["React, Redux, Node.js API, Python (Flask), MongoDB"]
+                    ["React, Redux, Node.js API, Python (Flask), MongoDB"],
+                    "Participated in a hackathon project to connect employees to potential employers within the company",
+                    ["Neo4j, Java, Spring Boot"]
                   ]}
                 />
                 <Job
