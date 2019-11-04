@@ -45,30 +45,26 @@ class App extends Component {
             <div className="summary section">
               <h5 className="subtitle is-5 has-text-weight-bold">Summary</h5>
               <p>
-                Software engineer interested in building exciting and
-                challenging products and tools. Skilled in design, architecture,
-                and agile practices.
+                Software engineer experienced in full stack web development,
+                design, and architecture. Interested in learning and using new
+                technologies to solve challenging problems.
               </p>
             </div>
             <div className="columns section">
               <Skills
                 skills={[
                   "JavaScript / TypeScript",
-                  ["React / React Native", "Redux / MobX", "Jest"],
+                  ["React / React Native", "Redux / MobX"],
                   "Node.js",
                   ["Express / Hapi / Nest.js"],
                   "Golang",
                   ["Gorilla Mux", "gorm"],
                   "Python",
-                  [
-                    "Flask",
-                    "Pandas / Numpy / Jupyter",
-                    "Time-series Forecasting"
-                  ],
+                  ["Flask", "Pandas / Numpy / Jupyter"],
                   "CSS / SASS / SCSS",
-                  "Messaging / Streaming",
-                  ["NATS", "Kafka"],
-                  "Protocol Buffers / GRPC",
+                  "Docker / Docker Compose",
+                  "CI/CD (Bamboo)",
+                  "AWS",
                   "Databases",
                   [
                     "SQLite",
@@ -77,13 +73,10 @@ class App extends Component {
                     "Redis",
                     "Neo4j"
                   ],
-                  "CI/CD (Bamboo)",
                   "OAuth2 / OIDC",
-                  "Docker",
-                  "AWS",
+                  "Protocol Buffers / GRPC",
                   "Git",
-                  "Vim",
-                  "Linux"
+                  "Vim"
                 ]}
               />
               <div className="experience column is-gapless">
@@ -91,38 +84,36 @@ class App extends Component {
                   Experience
                 </h5>
                 <Job
-                  title="Associate Software Developer"
+                  title="Software Engineer"
                   employer="Liberty Mutual Insurance"
                   time="June 2018 - Current"
                   location="Portsmouth, NH"
                   responsibilities={[
-                    "Created UI and backend architecture of a service catalog to make our automation services more available to our customers",
+                    "Developed an AIOps solution to provide anomaly detection and forecasting to system-level metrics",
                     [
-                      "UI written in TypeScript React / MobX, styled with Bulma",
-                      "Started writing backend using Golang with NATS streaming server and gRPC for messaging"
+                      "Python, Time-Series Forecasting (XGBoost, FB Prophet, Keras, SKLearn, etc.)",
+                      "Golang, Docker Compose, Grafana, InfluxDB, Telegraf"
                     ],
-                    "Wrote a Node.js REST API to track the telemetry of my team's services, deployed to AWS using DynamoDB",
-                    "Built a system to enable ITSM managers to reduce response times to problem remediation and root cause detection",
-                    [
-                      "UI written in React / Redux, styled with Blueprint.js",
-                      "API written in Python / Flask, persistence with MongoDB"
-                    ]
+                    "Built a Telemetry API and dashboard to track external application and service usage",
+                    ["Node.js API, DynamoDB"],
+                    "Built a frontend for tracking mainframe deployments, including importing and exporting Excel sheets",
+                    ["React, MobX, Node.js (TypeScript)"],
+                    "Lead the creation of a service catalog to better market our team's services to the company",
+                    "Created a system for adding new detail to ITSM problem tickets",
+                    ["React, Redux, Node.js API, Python (Flask), MongoDB"]
                   ]}
                 />
                 <Job
                   title="Personal"
                   employer="Self-Employed"
-                  time="June 2016 - Current"
+                  time="Current"
                   location="Portsmouth, NH"
                   responsibilities={[
-                    // "Co-developed 'Kneeded', a large-scale, distributed list creation tool built with micro-services",
                     "In the process of obtaining an AWS Solutions Architect Associate certification",
-                    "Created 'Dinero', a money management tool written in Golang and React",
-                    [
-                      "Learned TDD with Go, SQLite persistence",
-                      "Deployed through a Docker image (users pull image from DockerHub for use)"
-                    ],
-                    "Built Docker container management UI using React and the Docker Engine API (similar to Kitematic)"
+                    "Built a money management tool to practice TDD",
+                    ["Golang, SQLite, Docker"],
+                    "Built a Docker container management UI similar to Kitematic",
+                    ["React, Docker Engine API"]
                   ]}
                 />
                 <Job
@@ -132,10 +123,7 @@ class App extends Component {
                   location="Portsmouth, NH"
                   responsibilities={[
                     "Create a Billing Modeler for phone representatives to see how a policy change would affect the recurring payments",
-                    [
-                      "Learned how to write an API in Node.js",
-                      "Learned how to write frontends in React and vanilla JavaScript"
-                    ],
+                    ["Learned full-stack web development in JavaScript"],
                     "Participated in Liberty Mutual's 'Agile Transformation', learned agile ceremonies and tendencies"
                   ]}
                 />
