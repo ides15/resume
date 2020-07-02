@@ -34,7 +34,7 @@ class App extends Component {
                 </span>
               </p>
               <p className="has-text-right">
-                (703) 853-5968
+                (703) 853-5869
                 <span className="icon">
                   <i className="fas fa-phone" />
                 </span>
@@ -45,9 +45,9 @@ class App extends Component {
             <div className="summary section">
               <h5 className="subtitle is-5 has-text-weight-bold">Summary</h5>
               <p>
-                Software engineer experienced in full stack web development,
-                design, and architecture. Interested in learning and using new
-                technologies to solve challenging problems.
+                Software engineer experienced in building, designing, and
+                architecting cloud-native applications. Interested in learning
+                and using new technologies to solve challenging problems.
               </p>
             </div>
             <div className="columns section">
@@ -58,32 +58,33 @@ class App extends Component {
                   "Node.js",
                   ["Express / Hapi / Nest.js"],
                   "Golang",
-                  ["Gorilla Mux", "gorm"],
+                  ["Gorilla Mux / chi", "gorm / sqlx", "Go modules"],
+                  "Docker / Docker Compose",
+                  "Kubernetes",
+                  "CSS / SASS / SCSS",
                   "Python",
                   [
                     "Flask",
                     "Pandas / Numpy / Jupyter",
-                    "Time-Series Forecasting"
+                    "Time-Series Forecasting",
                   ],
-                  "CSS / SASS / SCSS",
-                  "Docker",
-                  "Docker Compose",
-                  "CI/CD (Bamboo)",
+                  "Java",
+                  ["Spring Boot", "JPA", "Hibernate", "Feign"],
+                  "CI/CD",
+                  ["Bamboo / Azure DevOps / TeamCity"],
                   "AWS",
+                  "AWS Amplify",
+                  "Azure",
                   "Databases",
                   [
+                    "MySQL / Aurora",
+                    "MS SQL Server",
+                    "Postgresql",
                     "SQLite",
                     "DynamoDB / MongoDB",
-                    "MySQL / Aurora",
                     "Redis",
-                    "Neo4j"
                   ],
-                  "OAuth2 / OIDC",
-                  "Protocol Buffers / GRPC",
-                  "Hashicorp Vault",
-                  "Git",
-                  "Vim",
-                  "Linux"
+                  "OAuth2 / OIDC / Okta",
                 ]}
               />
               <div className="experience column is-gapless">
@@ -91,15 +92,51 @@ class App extends Component {
                   Experience
                 </h5>
                 <Job
+                  title="Full Stack Developer"
+                  employer="Haystack LLC"
+                  time="January 2020 - June 2020"
+                  location="New Albany, Ohio (remote)"
+                  responsibilities={[
+                    "Inherited a mature infrastructure and codebase that supported government contractors globally",
+                    "Built out a microservice architecture to transition our monolithic applications to a more manageable workload",
+                    [
+                      "Learned and used Kubernetes to develop and deploy many highly-available containerized microservices",
+                      "Microservices built in a variety of languages, including Golang, Java (Spring Boot), and Node.js",
+                    ],
+                    "Acted as lead software engineer and was responsible for regular deployments to applications and services used by the entire company",
+                    "Built out a job application platform (similar to Glassdoor, Monster.com, etc)",
+                    [
+                      "React (TypeScript), Redux",
+                      "Various backend services written in Java, Golang, Node.js",
+                    ],
+                    "Started a thorough documentation effort to consolidate all knowledge of existing systems to make it easier for newer employees to understand the system",
+                  ]}
+                />
+                <Job
+                  title="Software Developer"
+                  employer="Heretic Technology Group"
+                  time="March 2020 - April 2020"
+                  location="Dover, NH"
+                  responsibilities={[
+                    "Refactored and created new features for Maverick (https://www.maverickapp.io), an automated email engagement application",
+                    "Application existed as a Google Chrome extension interacting with Gmail, written in React",
+                    [
+                      "Cleaned up much of the existing codebase and made it more structured by introducing TypeScript",
+                      "Used MobX for state management",
+                      "Used AWS Amplify to interact with various backend services, such as an API, authentication, user registration",
+                    ],
+                  ]}
+                />
+                <Job
                   title="Software Engineer"
                   employer="Liberty Mutual Insurance"
-                  time="June 2018 - Current"
+                  time="June 2018 - January 2020"
                   location="Portsmouth, NH"
                   responsibilities={[
                     "Developed an AIOps solution to provide anomaly detection and forecasting to system-level metrics",
                     [
                       "Python, Time-Series Forecasting (XGBoost, FB Prophet, Keras, SKLearn, etc.)",
-                      "Golang, Docker Compose, Grafana, InfluxDB, Telegraf"
+                      "Golang, Docker Compose, Grafana, InfluxDB, Telegraf",
                     ],
                     "Built a Telemetry API and dashboard to track external application and service usage",
                     ["Node.js API, DynamoDB"],
@@ -109,10 +146,10 @@ class App extends Component {
                     "Created a system for adding new detail to ITSM problem tickets",
                     ["React, Redux, Node.js API, Python (Flask), MongoDB"],
                     "Participated in a hackathon project to connect employees to potential employers within the company",
-                    ["Neo4j, Java, Spring Boot"]
+                    ["Neo4j, Java, Spring Boot"],
                   ]}
                 />
-                <Job
+                {/* <Job
                   title="TechStart Intern"
                   employer="Liberty Mutual Insurance"
                   time="May 2017 - August 2017"
@@ -120,7 +157,7 @@ class App extends Component {
                   responsibilities={[
                     "Create a Billing Modeler for phone representatives to see how a policy change would affect the recurring payments",
                     ["Learned full-stack web development in JavaScript"],
-                    "Participated in Liberty Mutual's 'Agile Transformation', learned agile ceremonies and tendencies"
+                    "Participated in Liberty Mutual's 'Agile Transformation', learned agile ceremonies and tendencies",
                   ]}
                 />
                 <Job
@@ -133,19 +170,9 @@ class App extends Component {
                     "Built a money management tool to practice TDD",
                     ["Golang, SQLite, Docker"],
                     "Built a Docker container management UI similar to Kitematic",
-                    ["React, Docker Engine API"]
+                    ["React, Docker Engine API"],
                   ]}
-                />
-                <Job
-                  title="Residential Computing Manager"
-                  employer="Penn State Residential Computing"
-                  time="June 2016 - May 2018"
-                  location="State College, PA"
-                  responsibilities={[
-                    "Managed 20-30 employees in Tier 1 IT service desk responsibilities",
-                    "Used ServiceNow, a ticketing and IT service management tool"
-                  ]}
-                />
+                /> */}
               </div>
             </div>
             <div className="education">
