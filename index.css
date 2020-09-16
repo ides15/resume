@@ -10,3 +10,13 @@
   max-height: 11in;
   min-height: 11in;
 }
+
+ul li:before {
+  content: "-";
+  font-size: 10pt;
+}
+
+ul li {
+  padding-left: 0.5rem;
+  text-indent: -0.5rem;
+}
