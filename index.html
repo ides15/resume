@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.css" rel="stylesheet" />
+    <link href="node_modules/@fortawesome/fontawesome-free/css/brands.css" rel="stylesheet" />
+    <link href="node_modules/@fortawesome/fontawesome-free/css/solid.css" rel="stylesheet" />
+    <link rel="stylesheet" href="tailwind.css" />
+
+    <title>John Ide - Resume</title>
+  </head>
+  <body>
+    <div class="printout border mx-auto p-4 pt-2">
+      <!-- Header -->
+      <div class="flex">
+        <!-- Left -->
+        <div class="flex flex-col flex-grow justify-center">
+          <h1 class="text-3xl text-left font-bold">John Ide</h1>
+          <div class="flex items-center">
+            <i class="fab fa-github text-gray-700 mr-2"></i>
+            <a href="https://github.com/ides15" target="_blank" class="text-sm text-blue-600 hover:text-blue-400"
+              >github.com/ides15</a
+            >
+          </div>
+        </div>
+
+        <!-- Right -->
+        <div class="flex">
+          <div class="flex flex-col justify-center">
+            <p class="text-sm text-right">Dover, NH 03820</p>
+            <p class="text-sm text-right">ide.johnc@gmail.com</p>
+            <p class="text-sm text-right">(703) 853 - 5869</p>
+          </div>
+          <div class="flex flex-col justify-center ml-2 mt-1">
+            <!-- Hacky padding here because the map marker icon is weirdly not centered -->
+            <i class="fas fa-map-marker-alt text-gray-700 leading-snug pl-px ml-px"></i>
+            <i class="fas fa-envelope text-gray-700 leading-snug"></i>
+            <i class="fas fa-phone text-gray-700 leading-snug"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- Summary -->
+      <div class="mt-4">
+        <p class="text-lg font-bold">Summary</p>
+        <p class="text-sm mt-1">
+          Software engineer experienced in building, designing, and architecting cloud-native applications with best
+          practices in mind. Interested in learning and using new technologies to solve challenging problems.
+        </p>
+        <p class="text-sm mt-1">
+          More examples of work (including Golang, GraphQL, gRPC, API clients, and this resume) can be found at
+          <a href="https://github.com/ides15" target="_blank" class="text-sm text-blue-600 hover:text-blue-400"
+            >github.com/ides15</a
+          >.
+        </p>
+      </div>
+
+      <!-- Skills -->
+      <div class="mt-4">
+        <p class="text-lg font-bold">Skills</p>
+        <div class="flex mt-1 justify-between">
+          <!-- JavaScript -->
+          <div>
+            <p class="text-sm font-bold">JavaScript</p>
+            <ul class="mt-1">
+              <li><p class="text-xs">TypeScript</p></li>
+              <li><p class="text-xs">React</p></li>
+              <li><p class="text-xs">Redux / MobX</p></li>
+              <li><p class="text-xs">Express / NestJS</p></li>
+              <li><p class="text-xs">Jest</p></li>
+            </ul>
+          </div>
+
+          <!-- Design -->
+          <div>
+            <p class="text-sm font-bold">Design</p>
+            <ul class="mt-1">
+              <li><p class="text-xs">CSS / SCSS / SASS</p></li>
+              <li><p class="text-xs">Bootstrap</p></li>
+              <li><p class="text-xs">TailwindCSS / Bulma</p></li>
+              <li><p class="text-xs">Ant Design / MaterialUI</p></li>
+              <li><p class="text-xs">styled-components</p></li>
+            </ul>
+          </div>
+
+          <!-- Go (golang) -->
+          <div>
+            <p class="text-sm font-bold">Go (golang)</p>
+            <ul class="mt-1">
+              <li><p class="text-xs">gorilla mux / chi</p></li>
+              <li><p class="text-xs">gorm / sqlx</p></li>
+              <li><p class="text-xs">Table-Driven Testing</p></li>
+              <li><p class="text-xs">grpc / protobuf</p></li>
+              <li><p class="text-xs">GraphQL</p></li>
+            </ul>
+          </div>
+
+          <!-- Databases -->
+          <div>
+            <p class="text-sm font-bold">Databases</p>
+            <ul class="mt-1">
+              <li><p class="text-xs">MySQL / MS SQL</p></li>
+              <li><p class="text-xs">PostgreSQL</p></li>
+              <li><p class="text-xs">MongoDB / DynamoDB</p></li>
+              <li><p class="text-xs">Redis</p></li>
+              <li><p class="text-xs">InfluxDB</p></li>
+            </ul>
+          </div>
+
+          <!-- Cloud / DevOps -->
+          <div>
+            <p class="text-sm font-bold">Cloud / DevOps</p>
+            <ul class="mt-1">
+              <li><p class="text-xs">Docker</p></li>
+              <li><p class="text-xs">Kubernetes</p></li>
+              <li><p class="text-xs">AWS / Azure</p></li>
+              <li><p class="text-xs">CI/CD</p></li>
+              <li><p class="text-xs">Grafana</p></li>
+            </ul>
+          </div>
+
+          <!-- Other -->
+          <div>
+            <p class="text-sm font-bold">Other</p>
+            <ul class="mt-1">
+              <li><p class="text-xs">Microservices</p></li>
+              <li><p class="text-xs">Java</p></li>
+              <li><p class="text-xs">Python</p></li>
+              <li><p class="text-xs">Pair Programming</p></li>
+              <li><p class="text-xs">Agile</p></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Experience -->
+      <div class="mt-4">
+        <p class="text-lg font-bold">Experience</p>
+        <!-- Maverick -->
+        <div>
+          <div class="flex mt-1 justify-between">
+            <div>
+              <p class="font-semibold">Software Developer</p>
+              <p class="text-xs">Heretic Technology Group</p>
+            </div>
+            <div>
+              <p class="text-xs text-right">March 2020 - Present</p>
+              <p class="text-xs text-right">Dover, NH</p>
+            </div>
+          </div>
+          <div class="mt-1">
+            <p class="text-sm">
+              Refactored and created new features for Maverick (<a
+                href="https://www.maverickapp.io"
+                target="_blank"
+                class="text-blue-600 hover:text-blue-400"
+                >maverickapp.io</a
+              >), an automated email engagement platform. The application existed as two separate React codebases - a
+              Google Chrome Extension and a Microsoft Outlook Add-In. Merged the two codebases into one shared project
+              and cleaned up and structured much of the codebase by introducing TypeScript and MobX. Used AWS Amplify to
+              handle various backend tasks such as an API, authentication, and user registration.
+            </p>
+          </div>
+        </div>
+
+        <!-- Haystack -->
+        <div class="mt-3">
+          <div class="flex mt-1 justify-between">
+            <div>
+              <p class="font-semibold">Full Stack Developer</p>
+              <p class="text-xs">Haystack LLC</p>
+            </div>
+            <div>
+              <p class="text-xs text-right">January 2020 - June 2020</p>
+              <p class="text-xs text-right">New Albany, OH (remote)</p>
+            </div>
+          </div>
+          <div class="mt-1">
+            <p class="text-sm">
+              Built out a microservice architecture to transition the company's monolithic applications to a more
+              manageable workload. Used Kubernetes to deploy a series of highly-available microservices written in
+              Golang, Node.js, and Java. Acted as lead software engineer and was responsible for new features,
+              maintenance, and regular deployments to applications and services used by the entire company daily.
+            </p>
+            <p class="text-sm mt-1">
+              Became comfortable working in Kubernetes (k8s) and using common k8s concepts such as nodes, pods,
+              deployments, services, cronjobs, ingress, config maps, and secrets. Continued learning more about k8s
+              concepts like volumes, stateful sets, and replica sets after my time at Haystack LLC, as well as related
+              technologies such as Helm, Prometheus, and the ELK stack.
+            </p>
+          </div>
+        </div>
+
+        <!-- Liberty Mutual Insurance -->
+        <div class="mt-3">
+          <div class="flex mt-1 justify-between">
+            <div>
+              <p class="font-semibold">Software Engineer</p>
+              <p class="text-xs">Liberty Mutual Insurance</p>
+            </div>
+            <div>
+              <p class="text-xs text-right">June 2018 - January 2020</p>
+              <p class="text-xs text-right">Portsmouth, NH</p>
+            </div>
+          </div>
+          <div class="mt-1">
+            <p class="text-sm">
+              Developed an AIOps solution to provide anomaly detection and forecasting capabilities to datacenter
+              servers' system level metrics. Using sources such as VMWare, Splunk, and AppDynamics, we were able to
+              accurately predict when a server would reach capacity for a given time-series metric (CPU, memory, disk,
+              etc.) and proactively take action to avoid a problem. Created a demo application that showed the entire
+              process using Golang, Docker, Grafana, InfluxDB, and Telegraf.
+            </p>
+            <p class="text-sm mt-1">
+              Built numerous backend services and user interfaces for various business cases, including service
+              telemetry, deployment tracking, and ITSM. Backend services were built in either Node.js or Python, and
+              user interfaces were built in React.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Education -->
+      <div class="mt-4">
+        <p class="text-lg font-bold">Education</p>
+        <div class="flex mt-1 justify-between">
+          <div>
+            <p class="font-semibold">Bachelor of Science: Information Sciences and Technology</p>
+            <p class="text-sm">Minor: Security and Risk Analysis</p>
+            <p class="text-sm italic">The Pennsylvania State University</p>
+          </div>
+          <div>
+            <p class="text-xs text-right">August 2014 - May 2018</p>
+            <p class="text-xs text-right">University Park, PA</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
