@@ -11,7 +11,7 @@
     <title>John Ide - Resume</title>
   </head>
   <body>
-    <div class="printout border mx-auto p-4 pt-2">
+    <div class="printout border border-transparent mx-auto p-4 pt-2">
       <!-- Header -->
       <div class="flex">
         <!-- Left -->
@@ -19,15 +19,24 @@
           <h1 class="text-3xl text-left font-bold">John Ide</h1>
           <div class="flex items-center">
             <i class="fab fa-github text-gray-700 mr-2"></i>
-            <a href="https://github.com/ides15" target="_blank" class="text-sm text-blue-600 hover:text-blue-400"
+            <a
+              href="https://github.com/ides15"
+              target="_blank"
+              class="text-sm text-blue-600 hover:text-blue-400"
               >github.com/ides15</a
             >
             <i class="fab fa-twitter text-gray-700 ml-5 mr-2"></i>
-            <a href="https://twitter.com/IDEsayyes" target="_blank" class="text-sm text-blue-600 hover:text-blue-400"
+            <a
+              href="https://twitter.com/IDEsayyes"
+              target="_blank"
+              class="text-sm text-blue-600 hover:text-blue-400"
               >twitter.com/IDEsayyes</a
             >
             <i class="fab fa-linkedin text-gray-700 ml-5 mr-2"></i>
-            <a href="https://linkedin.com/in/ides15" target="_blank" class="text-sm text-blue-600 hover:text-blue-400"
+            <a
+              href="https://linkedin.com/in/ides15"
+              target="_blank"
+              class="text-sm text-blue-600 hover:text-blue-400"
               >linkedin.com/in/ides15</a
             >
           </div>
@@ -53,8 +62,9 @@
       <div class="mt-3">
         <p class="text-lg font-bold">Summary</p>
         <p class="text-sm mt-1">
-          Software engineer experienced in building, designing, and architecting cloud-native applications with best
-          practices in mind. Interested in learning and using new technologies to solve challenging problems.
+          Software engineer experienced in building, designing, and architecting cloud-native
+          applications with best practices in mind. Interested in learning and using new
+          technologies to solve challenging problems.
         </p>
         <!-- <p class="text-sm mt-1">
           More examples of work (including Golang, GraphQL, gRPC, API clients, and this resume) can be found at
@@ -74,7 +84,7 @@
             <ul class="mt-1">
               <p class="text-xs">TypeScript</p>
               <p class="text-xs">React</p>
-              <p class="text-xs">Redux / MobX</p>
+              <p class="text-xs">Redux / MobX / Recoil</p>
               <p class="text-xs">Express / NestJS</p>
               <p class="text-xs">Jest</p>
             </ul>
@@ -133,7 +143,7 @@
             <p class="text-sm font-bold">Other</p>
             <ul class="mt-1">
               <p class="text-xs">Microservices</p>
-              <p class="text-xs">Java</p>
+              <p class="text-xs">REST / GraphQL</p>
               <p class="text-xs">Python</p>
               <p class="text-xs">Pair Programming</p>
               <p class="text-xs">Agile</p>
@@ -145,8 +155,39 @@
       <!-- Experience -->
       <div class="mt-3">
         <p class="text-lg font-bold">Experience</p>
-        <!-- Maverick -->
+        <!-- Constant Contact -->
         <div>
+          <div class="flex mt-1 justify-between">
+            <div>
+              <p class="font-semibold">Senior Software Engineer (Contract)</p>
+              <p class="text-xs">Constant Contact</p>
+            </div>
+            <div>
+              <p class="text-xs text-right">September 2020 - Present</p>
+              <p class="text-xs text-right">Dover, NH (remote)</p>
+            </div>
+          </div>
+          <div class="mt-1">
+            <ul>
+              <li class="text-sm">
+                Developed an application to build automated email marketing "workflows" using a
+                custom-built drag-and-drop editor
+              </li>
+              <li class="text-sm">
+                UI was built with React, Typescript, Apollo, and Recoil, along with other
+                specialized framworks such as ReactDnD, normalizr, and styled-components. Used the
+                React Apollo client for interacting with our GraphQL server
+              </li>
+              <li class="text-sm">
+                Server was built with Node.js and Typescript, exposing a GraphQL endpoint to provide
+                interactions with the frontend while also abstracting a complex data layer
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Maverick -->
+        <div class="mt-3">
           <div class="flex mt-1 justify-between">
             <div>
               <p class="font-semibold">Software Developer (Part Time)</p>
@@ -168,12 +209,9 @@
                 >), an automated email engagement platform
               </li>
               <li class="text-sm">
-                Cut the amount of overall code in half by merging the two codebases (Google Chrome extension and
-                Microsoft Outlook Add-In) into one project, and cleaned up and restructured much of the codebase by
-                introducing TypeScript and MobX
-              </li>
-              <li class="text-sm">
-                Used AWS Amplify to handle various backend tasks such as an API, authentication, and user registration
+                Cut the amount of overall code in half by merging the two codebases (Google Chrome
+                extension and Microsoft Outlook Add-In) into one project, and cleaned up and
+                restructured much of the codebase by introducing TypeScript and MobX
               </li>
             </ul>
           </div>
@@ -194,24 +232,17 @@
           <div class="mt-1">
             <ul>
               <li class="text-sm">
-                Developed and maintained a high throughput and low latency microservice architecture to transition the
-                company's monolithic applications to a more manageable workload
+                Developed and maintained a high throughput and low latency microservice architecture
+                to transition the company's monolithic applications to a more manageable workload
               </li>
               <li class="text-sm">
-                Learned and used Kubernetes to deploy over 20 highly-available microservices written in Golang, Node.js,
-                and Java
+                Learned and used Kubernetes to deploy over 20 highly-available microservices written
+                in Golang, Node.js, and Java
               </li>
               <li class="text-sm">
-                Executed high level daily deployments to internal applications and services with over 1,000 users
-              </li>
-              <li class="text-sm">
-                Became comfortable working in Kubernetes (k8s) and using common k8s concepts such as nodes, pods,
-                deployments, services, cronjobs, ingress, config maps, and secrets, and started to implement the
-                Hashicorp Consul service mesh
-              </li>
-              <li class="text-sm">
-                Continued learning more about k8s concepts like volumes, stateful sets, and replica sets after my time
-                at Haystack LLC, as well as related technologies such as Helm, Prometheus, and the ELK stack
+                Became comfortable working in Kubernetes (k8s) and using common k8s concepts such as
+                nodes, pods, deployments, services, cronjobs, ingress, config maps, and secrets, and
+                started to implement the Hashicorp Consul service mesh
               </li>
             </ul>
           </div>
@@ -232,26 +263,17 @@
           <div class="mt-1">
             <ul>
               <li class="text-sm">
-                Developed an AIOps solution to provide anomaly detection and forecasting capabilities to datacenter
-                system level metrics
+                Developed an AIOps solution to provide anomaly detection and forecasting
+                capabilities to datacenter system metrics
               </li>
               <li class="text-sm">
-                Accurately (~80%) predicted when a server would reach capacity for a given time-series metric (CPU,
-                memory, disk, etc.) and was able to proactively take action to avoid the problem based on sources such
-                as VMWare, Splunk, and AppDynamics
+                Accurately (~80%) predicted when a server would reach capacity for a given
+                time-series metric (CPU, memory, disk, etc.) and was able to proactively take action
+                to avoid the problem based on external sources (like Splunk, VMWare)
               </li>
               <li class="text-sm">
-                Implemented a demo application that showed the entire AIOps process using Golang, Docker, Grafana,
-                InfluxDB, and Telegraf
-              </li>
-              <li class="text-sm">
-                Promoted twice in 16 months, and was given leadership opportunities and projects with advanced
-                complexity
-              </li>
-              <li class="text-sm">
-                Built numerous backend services and user interfaces for various business cases, including service
-                telemetry for 50+ services, deployment tracking, and ITSM. Backend services were built in either Node or
-                Python, and user interfaces were built in React
+                Built a demo application that showed the entire AIOps process using Go, Docker,
+                Grafana, InfluxDB, and Telegraf
               </li>
             </ul>
           </div>
