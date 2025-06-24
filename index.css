@@ -4,8 +4,8 @@
 
 /* Container class meant to force the page into an 8.5x11" page */
 .printout {
-  max-width: 8.5in;
-  min-width: 8.5in;
+  max-width: 10in;
+  min-width: 10in;
 
   max-height: 11in;
   min-height: 11in;
