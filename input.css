@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+.printout {
+  max-width: 10in;
+  min-width: 10in;
+  max-height: 11in;
+  min-height: 11in;
+}
+
+.printout * {
+  line-height: 1.5 !important;
+}
+
+.leading-tight * {
+  line-height: 1.25 !important;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+ul li:before {
+  content: "- ";
+  font-size: 10pt;
+}
+
+ul li {
+  padding-left: 0.5rem;
+  text-indent: -0.5rem;
+}
+
+@media print {
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}

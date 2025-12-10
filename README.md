@@ -1,15 +1,22 @@
-# resume
+# Resume
 
-This is my resume, built in plain HTML and TailwindCSS.
+Professional resume built with React, Tailwind CSS, and Vite. Content is managed in YAML and validated with Zod.
 
-For a PDF of this resume, please see the <a href="https://github.com/ides15/resume/releases" target="_blank">Releases</a> page.
+## Setup
 
-This project is not currently meant to be served on a webpage directly, rather it is meant to be printed or saved as a PDF.
+```bash
+mise install
+pnpm install
+```
 
-## Usage
+## Development
 
-`npm install`
+```bash
+mise run dev
+```
 
-`npm run build:css`
+Opens http://localhost:5173 with hot module replacement. Edit `content.yaml` to see live changes.
 
-Open `index.html` in your browser.
+## Print to PDF
+
+Open in browser → Right-click → Print → Set margins to "None" → Save as PDF.

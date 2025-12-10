@@ -1,0 +1,25 @@
+[tools]
+  node = "22"
+  pnpm = "10.14.0"
+
+[tasks.build]
+  description = "Validate YAML, build Tailwind CSS, and create production build"
+  run         = "pnpm vite build"
+  sources     = ["content.yaml", "main.tsx", "input.css", "vite.config.ts"]
+  outputs     = ["data.ts", "tailwind.css", "dist"]
+
+[tasks.dev]
+  description = "Start Vite dev server with HMR"
+  run         = "pnpm vite"
+
+[tasks.lint]
+  description = "Lint code with Biome"
+  run         = "pnpm biome lint ."
+
+[tasks.format]
+  description = "Format code with Biome"
+  run         = "pnpm biome format --write ."
+
+[tasks.check]
+  description = "Lint and format code with Biome"
+  run         = "pnpm biome check --write ."

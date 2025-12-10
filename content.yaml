@@ -1,0 +1,125 @@
+name: John Ide
+location: Exeter, NH 03833
+email: ide.johnc@gmail.com
+phone: (703) 853 - 5869
+
+links:
+  - icon: github
+    url: https://github.com/ides15
+    display: github.com/ides15
+  - icon: linkedin
+    url: https://linkedin.com/in/ides15
+    display: linkedin.com/in/ides15
+
+summary: |
+  Experienced Software Engineer with a proven track record of building scalable, cloud-native applications. Skilled in full-stack development and distributed systems, with a focus on delivering high-quality solutions quickly and reliably.
+
+skills:
+  - category: Languages
+    items:
+      - TypeScript
+      - Go (golang)
+      - Python
+      - Node.js
+      - Lua (Neovim)
+      - Java
+      - Bash / Shell
+  - category: Frontend & APIs
+    items:
+      - React / React Native
+      - React Query / Apollo Client
+      - GraphQL
+      - REST
+      - gRPC / Protobuf
+      - AWS AppSync
+      - Amazon API Gateway
+  - category: Cloud
+    items:
+      - AWS Lambda
+      - Amazon DynamoDB
+      - AWS Glue
+      - AWS IoT
+      - Amazon RDS
+      - Amazon S3
+      - Amazon Cognito
+  - category: Infrastructure & DevOps
+    items:
+      - Cloud Development Kit (CDK)
+      - Docker
+      - Kubernetes / Helm
+      - Amazon VPC
+      - Amazon EventBridge
+      - CodePipeline / CodeBuild
+      - CloudWatch / OpenTelemetry
+  - category: Data & Backend
+    items:
+      - Apache Spark
+      - Apache Hudi
+      - ElectroDB
+      - Drizzle ORM
+      - Data Lakes (Glue Catalog, S3)
+      - Zod (validation)
+      - oclif (CLI framework)
+
+experience:
+  - logo: images/aws.png
+    title: Software Development Engineer II
+    company: Amazon Web Services (AWS)
+    duration: July 2022 - Present
+    location: Boston, MA
+    bullets:
+      - Leading engineering efforts across multiple customer-facing projects in data ETL pipelines, clinical trial platforms, and IoT; deeply involved in architecture, implementation, and developer tooling
+      - text: Built an ETL platform with AWS Glue, S3, DynamoDB (using single-table design), AppSync, and Lambda
+        subitems:
+          - Designed a data lake with the Glue data catalog and Apache Hudi to enable faster queries, schema evolution, and de-duplication
+          - Developed a React-based drag-and-drop UI with React Flow, auto-layouting (elkjs), and a custom CLI (oclif)
+      - text: Built a smart home control system for window shades using AWS IoT and MQTT to communicate with Zigbee-based hubs
+        subitems:
+          - Developed the mobile app in React Native + Expo with full CI/CD and OTA/App Store release pipelines
+      - text: Leading and designing the architecture for a clinical trials data platform, using Cadence workflows
+        subitems:
+          - Building APIs with Smithy, API Gateway, Lambda, RDS PostgreSQL (using Drizzle), and DynamoDB (using ElectroDB)
+          - Partnering with stakeholders to define plugin workflows for encoding, blinding, masking, and SDTM transformations
+
+  - logo: images/constant-contact.jpg
+    title: Senior Software Engineer I
+    company: Constant Contact
+    duration: September 2020 - June 2022 (1 year 10 months)
+    location: Waltham, MA
+    bullets:
+      - Developed a drag-and-drop application for creating automated email marketing workflows with a modern, responsive UI using React, TypeScript, Apollo client, and reactflow
+      - Integrated multiple backend services via gRPC / protobuf and GraphQL Mesh through a Node.js-based “backend for frontend”
+      - Created the configuration for our apps to run on a new AWS EKS infrastructure using Helm, and built and maintained our CI/CD pipelines which used GitOps through ArgoCD to keep our Kubernetes resources constantly in sync
+
+  - logo: images/haystack.png
+    title: Full Stack Developer
+    company: Haystack LLC
+    duration: January 2020 - June 2020 (6 months)
+    location: New Albany, OH (remote)
+    bullets:
+      - Designed and implemented a microservice architecture to modernize and decouple a legacy monolithic application
+      - Deployed and managed 20+ highly available microservices on Kubernetes, using a mix of Go, Node.js, and Java
+      - Gained deep hands-on experience with core Kubernetes concepts (e.g., pods, deployments, services, ingress, cronjobs, config maps, and secrets) and began integrating HashiCorp Consul for service mesh functionality
+
+  - logo: images/liberty-mutual.png
+    title: Software Engineer
+    company: Liberty Mutual Insurance
+    duration: June 2018 - January 2020 (1 year 6 months)
+    location: Portsmouth, NH
+    bullets:
+      - Built an AIOps system for anomaly detection and forecasting of datacenter metrics; achieved ~80% prediction accuracy for capacity issues and automated preventative actions via integrations with Splunk and VMware
+      - Built an end-to-end demo showcasing the AIOps workflow using Go, Docker, Grafana, InfluxDB, and Telegraf
+
+education:
+  - degree: "Bachelor of Science: Information Sciences and Technology"
+    minor: "Minor: Security and Risk Analysis"
+    school: The Pennsylvania State University
+    year: "2018"
+
+certifications:
+  - name: AWS Certified Solutions Architect - Associate
+    dates: Dec 2023 - 2026
+  - name: AWS Certified Developer - Associate
+    dates: May 2023 - 2026
+  - name: AWS Certified Data Analytics - Specialty
+    dates: Aug 2022 - 2025
